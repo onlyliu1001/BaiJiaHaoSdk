@@ -26,10 +26,13 @@
 var baijiahao BaiJiaHaoSdk.ContentPublish
 
 //设置APPID和TOKEN
+
 baijiahao.SetAppid("appid "," apptoken")
 
 //发布文章 返回参数看函数吧。
+
 baijiahao.ArticlePublish("正文标题", `<div class="article_show_body"><p>正文内容</p></div>`, "原网址",nil,nil,nil,nil,nil)
 
 //查询状态
+
 baijiahao.Query_Status("文章ID")
